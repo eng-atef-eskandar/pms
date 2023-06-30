@@ -7,7 +7,8 @@ background-size: 50%;
     color: #fff;
 
 
-font-family: 'Kablammo', cursive;
+font-family: 'Caprasimo', cursive;
+
 
 }
 
@@ -27,7 +28,7 @@ background-color: #111111;
 color: #fff;}
 
 input:focus{background-color: #000000;
-transform: scale(1.1);}
+transform: scale(1.05);}
 
 .price input {
     width: 20%; 
@@ -110,7 +111,7 @@ th,td{padding: 5px;
     border:2px solid tomato;
     margin: 5px;
    font-size: medium;
-   color:tomato ;
+   color:#fff ;
    background-color:#111111;
    border-radius: 50px;
 
@@ -122,7 +123,7 @@ th,td{padding: 5px;
         content: attr(data-title); 
         flex-basis: 200px;
         font-weight: bold;
-        color: red;
+        color: #fff;
         background-color:tomato;
         border-radius: 40px;
     
@@ -140,13 +141,13 @@ th,td{padding: 5px;
 
 
 
-#concatus{border-bottom: 900px;}
+#concatus{border-bottom: 100%;}
 
 
 ul {
     position: fixed;
-    top: 170px;
-    left: 30px;
+    top: 270px;
+    left: 20px;
     transform: translate(-50%, -50%);
     margin: 0;
     padding: 0;
@@ -161,14 +162,15 @@ ul li {
 
 ul li a {
     position: relative;
-    width: 40px;
+    width: 35px;
     height: 40px;
     display: block;
     text-align: center;
     
-    margin: 0 10px;
-    border-radius: 50%;
-    padding: 6px;
+    margin: 0 0px;
+
+    border-radius: 70%;
+    padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
